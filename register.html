@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="ISO-8859-1">
+<title>FCC</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+	crossorigin="anonymous">
+
+</head>
+
+<body>
+
+<body bgcolor="#FFA500">
+
+<table width="100%" celspacing="0" bgcolor="#FFA500">
+<tr>
+<td><a href="index.html"><img src="image/FCC_Logo.jpeg" width="100px" height="100px" alt="logo"></a></td>
+<td align=center><p>Mahi Multipurpose<br>
+<b><em style="font-size: 25px">FCC</em></b><br>Fruition Coaching Classes</p></td>
+<td><a href="register.html"><img src="image\admission-open-logo-png-4.png" width="150px" height="100px" alt="logo" align="right"></a></td>
+</tr>
+</table>
+
+
+<!--Header-->
+<table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+<tr>
+<td>
+<table border="0" cellpadding="15" cellspacing="0" width="100%">
+<tr>
+<td></td>
+<td><font face="Comic sans MS" size="6" color=#808081><b>FCC</b></font>
+</td>
+<td width="15%"></td>
+
+<!--page name start-->
+<td><a href="#index.html" style="text-decoration: none"><font face="Verdana" size="3" color=#808080 align="right"><b>Home</b></font></a></td>
+
+<td><a href="#about" style="text-decoration: none"><font face="Verdana" size="3" color=#808080 align="right"><b>About</b></font></a></td>
+
+<td><a href="#projects" style="text-decoration: none"><font	face="Verdana" size="3" color=#808080 align="right"><b>Services</b></font></a></td>
+
+<td><a href="#contact" style="text-decoration: none"><font face="Verdana" size="3" color=#808080 align="right"><b>Contact</b></font></a></td>
+
+<td><a href="index.html"><img src="image\login.png" width="150px" height="50px" alt="login" aligh="right"></a> 
+
+<a href="register.html"><img src="image\register.gif" width="150px" height="50px" alt="registration"></a></td>
+
+<!--page name end-->
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--Header(end)-->
+
+<!-- Registration Form Start -->
+<div class="container-fluid text-center" style="background-color: #000; color: #fff; font-family: verdana; font-size: 15px;">
+<div class="row no-gutters">
+<form action="registerlink" method="post">
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="padding-top: 5%">
+<tr>
+<td height="100" align="center" align="middle" colspan="2">
+<font face="Verdana" size="6">Registration Form</font>
+<hr color="#ffffff" width="90">
+</td>
+</tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%"
+align="center" style="margin: 3%">
+<tr>
+<td align="center" valign="top">
+<table>
+<tr>
+<center>
+<td><i style="font-size: 13px">(All fields are mandatory/required*)<br><br></i></td>
+</center>
+</tr>
+								
+<tr>
+<td width="40%">Adhar Card No:</td>
+<td width="60%"><input type="text" size="60" placeholder="Enter Adhar No" name="adharno" required /><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Name of Student:</td>
+<td width="60%"><input type="text" size="60" placeholder="Enter Full-Name" name="studentname" required /><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Class:</td>
+<td width="60%"><input type="text" placeholder="Enter class" name="class" required /><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Medium:</td>
+<td width="60%"><select name="medium">
+<option value="CBSE">Select</option>
+<option value="CBSE">CBSE</option>
+<option value="Semienglish">Semi English</option>
+<option value="marathi">Marathi</option>
+</select><br><br></td>
+</tr>
+
+
+<tr>
+<td width="40%">Name of Institute:</td>
+<td width="60%"><input type="text" size="60" placeholder="Enter current school name" name="schoolname" required /><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Subject:</td>
+<td width="60%">
+<input type="checkbox" id="subject1" name="subject1" value="Math"><label for="subject">Math</label>
+<input type="checkbox" id="subject2" name="subject2" value="English"><label for="subject">English</label> 
+<input type="checkbox" id="subject3" name="subject3" value="Science"><label for="subject">Science</label> 
+<input type="checkbox" id="subject4" name="subject4" value="Social_Science"><label for="subject">Social Science</label><br><br></td>
+</tr>
+
+<tr>
+<td width="40%"><font face="Verdana" size="2" color="#ffffff">Date of Birth:</font></td>
+<td width="60%"><font face="Verdana" size="3" color="#ffffff"> <input type="date" size="60" name="dob" required></font></td>
+</tr>
+
+<tr>
+<td width="40%">Gender:</td>
+<td width="60%"><input type="radio" id="male" name="gender" value="male" required><label for="gender">Male</label>
+<input type="radio" id="female" name="gender" value="female" required><label for="gender">Female</label><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Contact:</td>
+<td width="60%"><input type="number" size="12" name="contact" required><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Email:</td>
+<td width="60%"><input type="email" size="60" placeholder="Email" name="email" required><br>
+<br></td>
+</tr>
+
+
+<tr>
+<td width="40%">Name of Father:</td>
+<td width="60%"><input type="text" size="60" placeholder="Enter Full-Name" name="father" required><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Name of Mother:</td>
+<td width="60%"><input type="text" size="60" placeholder="Enter Full-Name" name="mother" required><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Name of Guardian:</td>
+<td width="60%"><input type="text" size="60" placeholder="Enter Full-Name" name="guardian"><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Address:</td>
+<td width="60%"><textarea rows="5" cols="47" placeholder="Address" name="address" required></textarea><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Username:</td>
+<td width="60%"><input type="username" size="60" placeholder="Enter username" name="username" required><br><br></td>
+</tr>
+
+<tr>
+<td width="40%">Username:</td>
+<td width="60%"><input type="password" size="60" placeholder="Enter password" name="password" required><br><br></td>
+</tr>
+
+<tr>
+<td width="40%"></td>
+<td width="60%"><input type="submit" value="Submit" class="btn btn-success">
+<input type="submit" value="Cancel" class="btn btn-success"></td>
+</tr>
+
+<tr>
+<td><p style="font-size: 13px; color: #fff; align: right; padding-bottom: 5%;">You have an account already 
+<a href="index.html" style="color: blue"><b>Login</b></a> </p></td>
+</tr>
+							
+</table>
+</td>
+</tr>
+
+</table>
+
+
+</form>
+</div>
+</div>
+<!-- Registration Form End -->
+
+<!--Footer-->
+<table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+<tr>
+<td>
+<table border="0" cellpadding="15" cellspacing="0" width="100%"
+><tr>
+<td></td>
+<td><font face="Comic sans MS" size="6" color=#808081><b>FCC</b></font>
+</td>
+<td width="15%"></td>
+
+<!--page name start-->
+<td><a href="index.html" style="text-decoration: none"><font face="Verdana" size="3" color=#808080 align="right"><b>Home</b></font></a></td>
+<td><a href="#about" style="text-decoration: none"><font face="Verdana" size="3" color=#808080 align="right"><b>About</b></font></a></td>
+<td><a href="#projects" style="text-decoration: none"><font face="Verdana" size="3" color=#808080 align="right"><b>Services</b></font></a></td>
+<td><a href="#contact" style="text-decoration: none"><font face="Verdana" size="3" color=#808080 align="right"><b>Contact</b></font></a></td>
+<td><a href="index.html"><img src="image\login.png" width="150px" height="50px" alt="login" aligh="right"></a> 
+	<a href="register.html"><img src="image\register.gif" width="150px" height="50px" align="right"></a></td>
+<!--page name end-->
+
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--Footer(end)-->
+
+
+</body>
+<footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+</footer>
+</html>
